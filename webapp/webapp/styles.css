@@ -1,0 +1,159 @@
+@charset "utf-8";
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@400;700&display=swap');
+
+
+
+body {
+    font-family: Arial, sans-serif;
+}
+
+ul  , li , a {
+    list-style-type: none;
+}
+
+header {
+    background: linear-gradient(135deg, #1d70b7 0%, #06529d 100%);
+    color: white;
+}
+.navbar-brand img{
+    width: 1000px;
+}
+
+header h1 {
+    font-size: 2.5rem;
+    margin-bottom: 0.5rem;
+}
+
+header p {
+    font-size: 1.25rem;
+    margin-bottom: 1.5rem;
+}
+
+header a {
+    font-size: 1.25rem;
+}
+
+
+
+section h2 {
+    font-size: 1.75rem;
+    margin-bottom: 1rem;
+}
+
+section p {
+    font-size: 1rem;
+    margin-bottom: 1rem;
+}
+
+section a {
+    font-size: 1rem;
+}
+
+.img-fluid {
+    max-width: 100%;
+    height: auto;
+}
+
+.rounded-circle {
+    border-radius: 50%;
+}
+
+.hero {
+    background-color: #f9f9f9;
+    padding: 50px 0;
+    text-align: center;
+}
+
+.hero img {
+    border-radius: 50%;
+    max-width: 100%;
+}
+
+.cta-section {
+    background-color: #001f54;
+    color: #fff;
+    padding: 50px 0;
+    text-align: center;
+}
+
+.cta-section .btn-primary {
+    background-color: #ffc107;
+    border: none;
+}
+
+.cta-section .btn-primary:hover {
+    background-color: #e0a800;
+}
+
+.faq-section {
+    padding: 50px 0;
+    text-align: center;
+}
+
+.faq-section h2 {
+    margin-bottom: 30px;
+}
+
+.container .final{
+    background-color: #001f54;
+    color: #fff;
+    padding: 50px 0;
+    text-align: center;
+}
+
+.footer {
+    background-color: #f8f9fa;
+    padding: 40px 0;
+}
+
+.footer a {
+    color: #000;
+    text-decoration: none;
+}
+
+.footer a:hover {
+    text-decoration: underline;
+}
+
+
+
+.footer-section {
+    margin-bottom: 20px;
+}
+
+.footer-bottom {
+    text-align: center;
+    padding: 20px 0;
+    border-top: 1px solid #dee2e6;
+}
+
+footer.bg-light {
+    background-color: #f8f9fa !important;
+}
+
+footer.bg-dark {
+    background-color: #343a40 !important;
+}
+
+footer h5 {
+    font-size: 1.25em;
+    margin-bottom: 1em;
+}
+
+footer ul {
+    list-style: none;
+    padding: 0;
+}
+
+footer ul li {
+    margin-bottom: 0.5em;
+}
+
+footer ul li a {
+    color: #000;
+    text-decoration: none;
+}
+
+footer ul li a:hover {
+    text-decoration: underline;
+}
